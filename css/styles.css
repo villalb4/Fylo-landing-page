@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+:root {
+/* ### Primary */
+
+--Very-Dark-Blue: hsl(243, 87%, 12%);
+--Desaturated-Blue: hsl(238, 22%, 44%);
+
+/* ### Accent */
+
+--Bright-Blue: hsl(224, 93%, 58%);
+--Moderate-Cyan: hsl(170, 45%, 43%);
+
+/* ### Neutral */
+
+--Light-Grayish-Blue: hsl(240, 75%, 98%);
+--Light-Gray: hsl(0, 0%, 75%);
+
+}
+
+body {
+    font-family: "Open sans";
+}
+.container {
+    margin: 65px 80px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+
+}
+.fyloStores {
+    max-width: 583px;
+}
+.illus1 {
+    width: 641px;
+}
