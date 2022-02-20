@@ -114,6 +114,43 @@ h1 {
     background-size: 100vw;
     height: 114px;
 }
+
+
 .mid {
-    background-color: var(--Light-Grayish-Blue);
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(240, 75%, 98%, 100%);
+    padding: 0 80px;
+}
+h2 {
+    padding-top: 58px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 39px;
+    letter-spacing: 0.02em
+    
+}
+.never-let {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 29px 0 15px 0;
+    max-width: 575px;
+}
+.securely {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 16px 0;
+    max-width: 550px;
+}
+.seehow{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px 0 49px 0;
+}
+.card {
+    margin: 49px 0 0 0;
+}
+.illus2 {
+    padding-top: 88px;
+    width: 541.99px;
 }
