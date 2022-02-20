@@ -59,10 +59,15 @@ main {
     justify-content: space-between;
     align-items: center;
 }
+.f-left {
+    padding-bottom: 20px;
+}
 h1 {
+    font-family: "Raleway";
     font-size:39.5px;
     line-height: 151%;
     letter-spacing: 0.015em;
+    color: var(--Very-Dark-Blue);
 }
 .fyloStores {
     max-width: 583px;
@@ -70,11 +75,29 @@ h1 {
     line-height: 132%;
     letter-spacing: -0.006em;
     margin: 15px 0 25px 0;
+    color: var(--Desaturated-Blue);
+}
+.m-input {
+    padding: 14px 129px 14px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 16px;
+}
+.m-button {
+    padding: 13.5px 62.13px;
+    font-family: "Raleway";
+    font-weight: 700;
+    letter-spacing:  0.002em;
+    border: 1px solid var(--Desaturated-Blue);
+    border-radius: 3px;
+    background-color: var(--Bright-Blue);
 }
 .illus1 {
     width: 641px;
     /* margin-bottom: 199.97px; */
 }
+
+
 .curve {
     background-image: url(../images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
