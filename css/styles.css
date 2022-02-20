@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;600;700&display=swap');
 
 :root {
 /* ### Primary */
@@ -29,30 +29,34 @@ body {
     font-family: "Open sans";
     
 }
-.container {
-    margin: 56px 80px 0 80px;
+.top {
+    margin: 65px 80px 0 80px;
 }
 
 header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin-bottom: 91.68px;
+    margin-bottom: 81px;
 }
 ul {
     display: flex;
     list-style: none;
-    gap: 56px;
+    gap: 57px;
+    padding:0 1px 6px 0;
 }
 .h-a {
+    font-family: "Raleway";
     text-decoration: none;
-    color: var(--Desaturated-Blue);
+    color: black;
     font-size: 16.8px;
+    font-weight: 400;
     letter-spacing: -0.02em;
 }
 
 
 main {
-    margin-bottom: 199.97px;
+    margin-bottom: 164px;
 }
 .first {
     display: flex;
@@ -60,41 +64,47 @@ main {
     align-items: center;
 }
 .f-left {
-    padding-bottom: 20px;
+    padding-bottom: 48px;
 }
 h1 {
     font-family: "Raleway";
-    font-size:39.5px;
-    line-height: 151%;
-    letter-spacing: 0.015em;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 156%;
+    letter-spacing: 0.014em;
     color: var(--Very-Dark-Blue);
 }
 .fyloStores {
-    max-width: 583px;
-    font-size: 18.4px;
+    max-width: 607px;
+    font-size: 18px;
     line-height: 132%;
-    letter-spacing: -0.006em;
+    letter-spacing: 0.0035em;
     margin: 15px 0 25px 0;
     color: var(--Desaturated-Blue);
 }
+
 .m-input {
     padding: 14px 129px 14px 20px;
-    border: 1px solid black;
-    border-radius: 3px;
-    margin-right: 16px;
+    border: 1px solid var(--Desaturated-Blue);
+    border-radius: 4px;
+    margin-right: 12px;
 }
 .m-button {
     padding: 13.5px 62.13px;
     font-family: "Raleway";
     font-weight: 700;
     letter-spacing:  0.002em;
-    border: 1px solid var(--Desaturated-Blue);
-    border-radius: 3px;
+    border: 1px solid hsl(225, 50%, 52%);
+    border-radius: 4px;
     background-color: var(--Bright-Blue);
+    color: var(--Light-Grayish-Blue)
+}
+.m-button:hover {
+    background-color: hsl(221 100% 71%);
+    cursor: pointer;
 }
 .illus1 {
-    width: 641px;
-    /* margin-bottom: 199.97px; */
+    width: 640px;
 }
 
 
@@ -103,4 +113,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 114px;
+}
+.mid {
+    background-color: var(--Light-Grayish-Blue);
 }
