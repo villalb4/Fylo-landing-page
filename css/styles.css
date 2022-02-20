@@ -18,25 +18,66 @@
 
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: "Open sans";
+    
 }
 .container {
-    margin: 65px 80px;
+    margin: 56px 80px 0 80px;
 }
+
 header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 91.68px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 56px;
+}
+.h-a {
+    text-decoration: none;
+    color: var(--Desaturated-Blue);
+    font-size: 16.8px;
+    letter-spacing: -0.02em;
 }
 
+
+main {
+    margin-bottom: 199.97px;
+}
 .first {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+}
+h1 {
+    font-size:39.5px;
+    line-height: 151%;
+    letter-spacing: 0.015em;
 }
 .fyloStores {
     max-width: 583px;
+    font-size: 18.4px;
+    line-height: 132%;
+    letter-spacing: -0.006em;
+    margin: 15px 0 25px 0;
 }
 .illus1 {
     width: 641px;
+    /* margin-bottom: 199.97px; */
+}
+.curve {
+    background-image: url(../images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 114px;
 }
