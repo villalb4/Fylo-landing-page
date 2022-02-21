@@ -195,6 +195,44 @@ h3 {
 
 
 .bot {
-    padding: 99px 80px 86px 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 80px 86px 80px;
     background-color: var(--Desaturated-Blue);
+}
+.get-early {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-family: 32px;
+    letter-spacing: 0.0045em;
+    color: var(--Light-Gray);
+    margin-bottom: 15px;
+}
+.it-only {
+    max-width: 546px;
+    line-height: 147%;
+    letter-spacing: 0.03em;
+    color: var(--Light-Gray);
+}
+.form-bot {
+    display: flex;
+    flex-direction: column;
+    padding-top: 77px ;
+}
+.bot-email {
+    padding: 16.5px 189px 16.5px 20px;
+    border: 1px solid hsl(251, 5%, 41%);
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+.bot-button {
+    padding: 16px 32.3px;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing:  0.002em;
+    border: 1px solid hsl(225, 50%, 52%);
+    border-radius: 4px;
+    background-color: var(--Bright-Blue);
+    color: var(--Light-Grayish-Blue)
 }
