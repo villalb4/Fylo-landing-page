@@ -85,9 +85,10 @@ h1 {
 
 .m-input {
     padding: 14px 129px 14px 20px;
-    border: 1px solid var(--Desaturated-Blue);
+    border: 1px solid hsl(251, 5%, 41%);
     border-radius: 4px;
     margin-right: 12px;
+    color: hsl(251, 0% , 81%);
 }
 .m-button {
     padding: 13.5px 62.13px;
@@ -127,8 +128,7 @@ h2 {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 39px;
-    letter-spacing: 0.02em
-    
+    letter-spacing: 0.02em;
 }
 .never-let {
     font-size: 16px;
@@ -157,8 +157,10 @@ h2 {
     padding: 25px 0 27px 33px;
 }
 .illus2 {
-    padding-top: 88px;
-    width: 541.99px;
+    margin-top: 88px;
+    width: 542px;
+    height: 409px;
+ 
 }
 .fylo-has {
     margin: 12px 0 16px 0;
@@ -189,4 +191,10 @@ h3 {
 }
 .kyle {
     height: 30px;
+}
+
+
+.bot {
+    padding: 99px 80px 86px 80px;
+    background-color: var(--Desaturated-Blue);
 }
