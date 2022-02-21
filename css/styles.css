@@ -236,3 +236,28 @@ h3 {
     background-color: var(--Bright-Blue);
     color: var(--Light-Grayish-Blue)
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 221px;
+    background-color: var(--Very-Dark-Blue);
+    color: white;
+    padding: 107px 80px 70px 80px;
+}
+.f-logo {
+    margin-bottom: 21.74px;
+    width: 175.97px;
+    height: 52.23px;
+}
+.phone , .email {
+    display: flex;
+    gap: 18px;
+}
+.email {
+    margin-top: 19px;
+}
+
+.filaD-T {
+    display: flex;
+}
