@@ -88,7 +88,8 @@ h1 {
     border: 1px solid hsl(251, 5%, 41%);
     border-radius: 4px;
     margin-right: 12px;
-    color: hsl(251, 0% , 81%);
+    color: hsl(246, 91%, 5%);
+    caret-color: var(--Bright-Blue);
 }
 .m-button {
     padding: 13.5px 62.13px;
@@ -225,6 +226,11 @@ h3 {
     border-radius: 4px;
     margin-bottom: 14px;
     background-color: hsl(240, 12%, 83%);
+    caret-color: var(--Bright-Blue);
+}
+input:focus {
+    outline: none;
+    border:1px solid hsl(340, 27%, 70%);
 }
 .bot-button {
     padding: 16px 32.3px;
@@ -241,7 +247,9 @@ h3 {
 .bot-button:hover {
     background-color: hsl(221 100% 71%);
 }
-::-webkit-input-placeholder { color: red; }
+::-webkit-input-placeholder { 
+    color: hsl(245, 7%, 68%);
+}
 
 footer {
     display: flex;
