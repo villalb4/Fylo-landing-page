@@ -224,6 +224,7 @@ h3 {
     border: 1px solid hsl(251, 5%, 41%);
     border-radius: 4px;
     margin-bottom: 14px;
+    background-color: hsl(240, 12%, 83%);
 }
 .bot-button {
     padding: 16px 32.3px;
@@ -234,8 +235,13 @@ h3 {
     border: 1px solid hsl(225, 50%, 52%);
     border-radius: 4px;
     background-color: var(--Bright-Blue);
-    color: var(--Light-Grayish-Blue)
+    color: var(--Light-Gray);
+    cursor: pointer;
 }
+.bot-button:hover {
+    background-color: hsl(221 100% 71%);
+}
+::-webkit-input-placeholder { color: red; }
 
 footer {
     display: flex;
@@ -259,5 +265,8 @@ footer {
 }
 
 .filaD-T {
-    display: flex;
+   
+}
+.left-l {
+
 }
